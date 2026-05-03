@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Title of the webpage shown on the browser tab -->
+    <title>Rex Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to external CSS stylesheet  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to Font Awesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Main container holding all chat elements -->
+    <div class="container">
+      <!-- Header section of the chat -->
+      <header class="chat-header">
+        <div class="bot-info">
+          <!-- Logo image for the bot -->
+          <img
+            src="logo.jpg"
+            alt="Tisfoulla Bot Logo"
+            class="bot-header-logo"
+          />
+          <!-- Bot title -->
+          <h3>Rex Companion</h3>
+        </div>
+      </header>
+
+      <!-- Chatbox div where messages will be dynamically added -->
+      <div id="chatbox" class="chatbox">
+        <div></div>
+      </div>
+
+      <!-- Input area for user to type message and send -->
+      <div class="input-area">
+        <!-- Text input field for typing messages -->
+        <input
+          id="inputMessage"
+          type="text"
+          placeholder="Type a message..."
+          autocomplete="off"
+        />
+        <!-- Send button with paper plane icon -->
+        <button id="sendBtn">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Link to external JavaScript file (commented out for now) -->
+    <script src="script.js"></script>
+  </body>
+</html>

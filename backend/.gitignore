@@ -1,0 +1,17 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# Node (if you later add React)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
