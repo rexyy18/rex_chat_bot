@@ -56,8 +56,8 @@ chat-bot/
 ### Clone the repository
 
 ```
-git clone https://github.com/your-username/tisfoulla-bot.git
-cd tisfoulla-bot
+git clone https://github.com/rexyy18/rex_chat_bot.git
+cd rex_chat_boot
 ```
 
 ### Setup backend
